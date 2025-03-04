@@ -67,6 +67,7 @@ export const ColorPaletteStyles = styled.div`
     width: 9rem;
     height: 9rem;
     border-radius: 50px;
+    border: 1px solid ${greyLine};
     cursor: pointer;
     display: flex;
     align-items: center;
