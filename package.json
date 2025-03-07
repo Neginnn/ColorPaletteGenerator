@@ -10,6 +10,8 @@
     "build": "next build",
     "start": "NODE_OPTIONS='-r next-logger' next start",
     "lint": "next lint",
+    "init:links": "yarn link \"react\" && yarn link \"react-dom\" && yarn link \"@emotion/react\"",
+    "remove:links": "yarn unlink \"react\" && yarn unlink \"react-dom\" && yarn unlink \"@emotion/react\" && rm -rf node_modules && rm -rf .next && rm yarn.lock",
     "test": "jest"
   },
   "dependencies": {
